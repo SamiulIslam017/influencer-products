@@ -5,10 +5,94 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Influencer Products</title>
+
+    <!-- font-awesome icon link -->
+    <script src="https://kit.fontawesome.com/07bd1f9147.js" crossorigin="anonymous"></script>
     <!-- style.css link -->
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    
+    <header>
+        <nav class="header-container main-menu">
+            <div class="logo">
+                <h2><a href="index.html">Influencer products</a> </h2>
+            </div>
+            <div class="navigation">
+                <ul>
+                    <li><a href="">home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">sign up</a></li>
+                    <li><a href="">log in</a></li>
+                </ul>
+                <span class="search">
+                    <a href="#">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.502 2C5.80753 2 2.00195 5.80558 2.00195 10.5C2.00195 15.1944 5.80753 19 10.502 19C12.4884 19 14.3169 18.3176 15.7637 17.176L20.5877 22C20.9783 22.3905 21.6114 22.3905 22.002 22C22.3925 21.6095 22.3925 20.9763 22.002 20.5858L17.1779 15.7618C18.3196 14.3149 19.002 12.4865 19.002 10.5C19.002 5.80558 15.1964 2 10.502 2ZM4.00195 10.5C4.00195 6.91015 6.9121 4 10.502 4C14.0918 4 17.002 6.91015 17.002 10.5C17.002 12.2952 16.2755 13.9188 15.0981 15.0962C13.9208 16.2736 12.2972 17 10.502 17C6.9121 17 4.00195 14.0899 4.00195 10.5Z" fill="black"/>
+                        </svg>
+                    </a>
+                </span>
+                <span class="cart">
+                    <a href="#">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 3C0 2.44772 0.447715 2 1 2H3.67703C4.08593 2 4.45364 2.24895 4.6055 2.62861L5.15407 4H21.523C22.2304 4 22.7142 4.71453 22.4514 5.37139L19.5029 12.7428C19.1992 13.5021 18.4637 14 17.6459 14H8.21106L6.87255 16H19C19.5523 16 20 16.4477 20 17C20 17.5523 19.5523 18 19 18H5C4.63088 18 4.29178 17.7967 4.1179 17.4711C3.94402 17.1455 3.96365 16.7506 4.16895 16.4438L6.55276 12.8819L3 4H1C0.447715 4 0 3.55228 0 3ZM8.35407 12H17.6459L20.0459 6H5.95407L8.35407 12Z" fill="black"/>
+                        <path d="M7.5 21.25C7.5 22.2165 6.7165 23 5.75 23C4.7835 23 4 22.2165 4 21.25C4 20.2835 4.7835 19.5 5.75 19.5C6.7165 19.5 7.5 20.2835 7.5 21.25Z" fill="black"/>
+                        <path d="M18.25 23C19.2165 23 20 22.2165 20 21.25C20 20.2835 19.2165 19.5 18.25 19.5C17.2835 19.5 16.5 20.2835 16.5 21.25C16.5 22.2165 17.2835 23 18.25 23Z" fill="black"/>
+                        </svg>
+                    </a>
+                </span>
+            </div>
+            <div class="m-cart">
+                <span class="cart">
+                    <a href="#">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 3C0 2.44772 0.447715 2 1 2H3.67703C4.08593 2 4.45364 2.24895 4.6055 2.62861L5.15407 4H21.523C22.2304 4 22.7142 4.71453 22.4514 5.37139L19.5029 12.7428C19.1992 13.5021 18.4637 14 17.6459 14H8.21106L6.87255 16H19C19.5523 16 20 16.4477 20 17C20 17.5523 19.5523 18 19 18H5C4.63088 18 4.29178 17.7967 4.1179 17.4711C3.94402 17.1455 3.96365 16.7506 4.16895 16.4438L6.55276 12.8819L3 4H1C0.447715 4 0 3.55228 0 3ZM8.35407 12H17.6459L20.0459 6H5.95407L8.35407 12Z" fill="black"/>
+                        <path d="M7.5 21.25C7.5 22.2165 6.7165 23 5.75 23C4.7835 23 4 22.2165 4 21.25C4 20.2835 4.7835 19.5 5.75 19.5C6.7165 19.5 7.5 20.2835 7.5 21.25Z" fill="black"/>
+                        <path d="M18.25 23C19.2165 23 20 22.2165 20 21.25C20 20.2835 19.2165 19.5 18.25 19.5C17.2835 19.5 16.5 20.2835 16.5 21.25C16.5 22.2165 17.2835 23 18.25 23Z" fill="black"/>
+                        </svg>
+                    </a>
+                </span>
+            </div>
+        </nav>
+        <div class="hero-section">
+            <div class="header-container">
+                <div class="banner">
+                    <div class="banner-text">
+                        <h1 class="banner-heading">
+                            Start your journey as influencer
+                        </h1>
+                        <p class="banner-desc">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores iste consequatur ab labore repellendus tempore!
+                        </p>
+                        <button class="primary-btn">
+                            prebook now <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                    <div class="banner-img">
+                        <img src="./images/main-camera.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="influence-partners">
+            <div class="header-container shape">
+                
+                <div class="partners">
+                    <img src="./images/logos/Alibaba.svg" alt="">
+                    <img src="./images/logos/Amazon.svg" alt="">
+                    <img src="./images/logos/Daraz.pk Logo.svg" alt="">
+                    <img src="./images/logos/Ebay.svg" alt="">
+                    <img src="./images/logos/Rakuten.svg" alt="">
+                    <img src="./images/logos/Walmart.svg" alt="">
+                    <img src="./images/logos/Target.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
